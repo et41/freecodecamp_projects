@@ -3,7 +3,6 @@ function dropElements(arr, func) {
   // Drop them elements.
   let cnt = 0; 
   for(let i = 0 ; i < arr.length ; i++){
-  	console.log(func(arr[i]));
   if(func(arr[i])){
   	arr = arr.slice(i);
   	cnt++;
@@ -13,7 +12,6 @@ function dropElements(arr, func) {
 if(cnt === 0){
 	arr=[];
 }
-  console.log('arr' , arr);
   return arr;
 }
 
