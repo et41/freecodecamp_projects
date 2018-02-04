@@ -4,13 +4,13 @@ function addTogether() {
 	let second = arguments[1];
 	if(!second && typeof(first) === 'number'){
 		return function(second){
-			if(typeof(second)==='number'){
+			if(typeof(second) === 'number'){
 				return sum = first+second;
 			}
 		};
 	}
-	if(typeof(first)=='number' && typeof(second)==='number' ){
-		return sum =first+second; 	
+	if(typeof(first) == 'number' && typeof(second) === 'number' ){
+		return sum = first + second; 	
 	}else {
 		return undefined;
 	}
