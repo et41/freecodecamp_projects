@@ -13,7 +13,7 @@ function truthCheck(collection, pre) {
   if(collection.length == cnt){
   	return true;
   }else{
-  	return false
+  	return false;
   }
 }
 
