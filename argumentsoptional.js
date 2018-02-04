@@ -14,10 +14,11 @@ function addTogether() {
 	}else {
 		return undefined;
 	}
+
 }
 
 console.log(addTogether(2,3));
 console.log(addTogether(2)(3));
 console.log(addTogether("http://bit.ly/IqT6zt"));
-console.log(addTogether(2, "3")); 
+console.log(addTogether(2, '3')); 
 console.log(addTogether(2)([3]));
