@@ -1,7 +1,7 @@
 
 function truthCheck(collection, pre) {
   // Is everyone being true?
-  let cnt = 0;
+  let cnt= 0;
   for( let i = 0 ; i <collection.length ; i++){
   let keys =	Object.keys(collection[i]);
   	for(let key of keys){
@@ -10,6 +10,7 @@ function truthCheck(collection, pre) {
   		}
   	}
   }
+  //return true if cnt equal to cnt otherwise return false
   if(collection.length == cnt){
   	return true;
   }else{
