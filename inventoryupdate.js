@@ -54,9 +54,9 @@ var newInv = [
 ];
 
 updateInventory(curInv, newInv);
-updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"],
+/*updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"],
  [5, "Microphone"]], []);  
 updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"],
  [1, "Hair Pin"], [5, "Microphone"]], [[2, "Hair Pin"],
 [3, "Half-Eaten Apple"], [67, "Bowling Ball"], [7, "Toothpaste"]]);
-  // should return [[88, "Bowling Ball"], [2, "Dirty Sock"], [3, "Hair Pin"],
+  // should return [[88, "Bowling Ball"], [2, "Dirty Sock"], [3, "Hair Pin"],*/
