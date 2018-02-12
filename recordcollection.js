@@ -29,7 +29,6 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 
 // Only change code below this line
 function updateRecords(id, prop, value) {
-  console.log(collection[id]);
   //if prop is not defined, create prop and value pair.
   if(prop !== 'tracks' && !collection[id][prop]){
    collection[id][prop] = value;
@@ -41,7 +40,6 @@ function updateRecords(id, prop, value) {
         collection[id][prop].push(value);
 
   }
-  console.log(collection);
   return collection;
 }
 
